@@ -1,5 +1,5 @@
 name: stream_reader
-version: 1.0.0
+version: 1.0.1
 description: Asynchronously read from Dart streams.
 author: Tobe O <thosakwe@gmail.com>
 homepage: https://github.com/thosakwe/stream_reader.git

@@ -104,7 +104,7 @@ class StreamReader<T> extends Stream<T> implements StreamConsumer<T> {
         _buffer.add(data);
       }
     })
-      ..onDone(() => close().then(c.complete))
+      ..onDone(c.complete)
       ..onError(c.completeError);
 
     return c.future;
