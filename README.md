@@ -1,6 +1,6 @@
 # stream_reader
 
-[![version 1.0.1](https://img.shields.io/badge/pub-1.0.1-brightgreen.svg)](https://pub.dartlang.org/packages/stream_reader)
+[![version 1.0.2](https://img.shields.io/badge/pub-1.0.2-brightgreen.svg)](https://pub.dartlang.org/packages/stream_reader)
 [![build status](https://travis-ci.org/thosakwe/stream_reader.svg)](https://travis-ci.org/thosakwe/stream_reader)
 
 Asynchronously read from Dart streams. Supports peeking, reading, and a reference

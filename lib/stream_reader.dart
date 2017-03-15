@@ -12,7 +12,7 @@ class StreamReader<T> extends Stream<T> implements StreamConsumer<T> {
 
   StreamController<T> _onData;
 
-  bool get isDone => _closed;
+  bool get isDone => _closed && _buffer.isEmpty;
 
   _onListen() {
     _onDataListening = true;
